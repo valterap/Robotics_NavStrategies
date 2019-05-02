@@ -3,5 +3,5 @@ This project is part of the Robotics course from Instituto Superior Técnico. Th
 
 # Collaborators
     Diogo Morgado
-    Valter Piedade
+    Valter Piedade @valterap
     Luis Afonso Lopes
