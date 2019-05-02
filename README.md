@@ -3,6 +3,6 @@ This project is part of the Robotics course from Instituto Superior Técnico. Th
 
 # Collaborators
     Diogo Morgado
-    Valter Piedade @valterap
+    Valter Piedade
     Luis Afonso Lopes
-    https://github.com/valterap
+   
