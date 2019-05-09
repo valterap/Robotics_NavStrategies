@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+
+ <!-- small description about your node -->
+ 
+ <node pkg="Robotics" type="Robotics_node" name="ListenerTalker" output="screen"/>
+ <node name="urg_node" pkg="urg_node" type="urg_node" output="screen">
+    <param name="ip_address" value=""/>
+    <param name="serial_port" value="/dev/ttyACM0"/>
+    <param name="serial_baud" value="115200"/>
+    <param name="frame_id" value="laser"/>
+    <param name="calibrate_time" value="true"/>
+    <param name="publish_intensity" value="false"/>
+    <param name="publish_multiecho" value="false"/>
+    <param name="angle_min" value="-1.570796"/>
+    <param name="angle_max" value="1.570796"/>
+  </node>
+ <node pkg="tf" type="static_transform_publisher" name="link1_broadcaster" args="0.2 0 0.25 0 0 0 base_link laser 10" />
+
+</launch>
