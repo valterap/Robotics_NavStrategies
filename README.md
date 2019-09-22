@@ -4,7 +4,7 @@ This project is part of the Robotics course from Instituto Superior Técnico and
 In order to control the robot we will be using the Laser Range Finder (LRF) to evaluate the distance between the robot and the wall. The LRF will also be used to evaluate the depth between the wall and the door in order to evaluate whether the door is opened, semi-opened or closed.
 
 
-# Collaborators
+# Authors
     Diogo Morgado
     Valter Piedade
     Luis Afonso Lopes
