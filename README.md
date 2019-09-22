@@ -8,4 +8,5 @@ In order to control the robot we will be using the Laser Range Finder (LRF) to e
     Diogo Morgado
     Valter Piedade
     Luis Afonso Lopes
+    @luislopes1997
    
